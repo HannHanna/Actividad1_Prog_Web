@@ -10,6 +10,4 @@ Juntar los ejercicios de la actividad en una página web publicada en línea usa
 ### Alumna
 Xana Amalinalli Pérez Jiménez
 
-### Enlaces de Entrega
-* **Repositorio:** [Pega aquí el enlace de tu código]
-* **Página Web:** [Pega aquí el enlace de GitHub Pages]
+
