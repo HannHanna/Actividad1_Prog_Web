@@ -1,7 +1,5 @@
 # Programación Web
-
 ## Actividad 1 - Tema 2: Prácticas de Desarrollo Web
-
 Este repositorio almacena como evidencia el conjunto de ejercicios prácticos trabajados en clase, enlazados de manera accesible mediante un menú principal.
 
 ### Propósito
