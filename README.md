@@ -1,16 +1,15 @@
 # Programación Web
-## Actividad 1 - Tema 2: Prácticas de Desarrollo Web
-Este repositorio almacena como evidencia el conjunto de ejercicios prácticos trabajados en clase, enlazados de manera accesible mediante un menú principal.
 
-### Propósito
+## Actividad 1 - Tema 2
 
-El objetivo de esta actividad es integrar las prácticas de estructuración en HTML, diseño con CSS e interactividad en un entorno web funcional, desplegando el proyecto en línea mediante GitHub Pages y validando la correcta ruta de los recursos.
+Este repositorio contiene los 10 ejercicios prácticos que desarrollamos en clase. Todos están conectados entre sí mediante un menú principal.
 
-### Alumno
+### Objetivo
+Juntar los ejercicios de la actividad en una página web publicada en línea usando GitHub Pages, comprobando que las imágenes, el código y los estilos funcionen correctamente.
 
+### Alumna
 Xana Amalinalli Pérez Jiménez
 
 ### Enlaces de Entrega
-
-* **Repositorio (Código):** [Inserta aquí tu link de GitHub]
-* **Sitio Web (GitHub Pages):** [Inserta aquí tu link de GitHub Pages]
+* **Repositorio:** [Pega aquí el enlace de tu código]
+* **Página Web:** [Pega aquí el enlace de GitHub Pages]
