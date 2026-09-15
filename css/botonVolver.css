@@ -1,0 +1,21 @@
+/* Botón para volver al menú principal */
+.btn-volver {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 15px;
+    background-color: #927dc1; /* Color lila */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+
+.btn-volver:hover {
+    background-color: #2a0880; /* Color al pasar el mouse */
+}
