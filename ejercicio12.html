@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Pesos a Dólares</title>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Conversor de Pesos</h1>
+        <p class="subtitulo">Ingresa la cantidad en pesos mexicanos (MXN).</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="pesos">Pesos Mexicanos (MXN)</label>
+                <input type="text" id="pesos" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="dolares">Dólares (USD)</label>
+                <input type="text" id="dolares" readonly>
+            </div>
+
+            <button type="button" id="btn-convertir" class="boton-enviar">Convertir</button>
+        </form>
+    </div>
+
+    <script src="js/ejercicio12.js"></script>
+    <a href="index.html" class="btn-volver">VOLVER AL MENÚ</a>
+
+</body>
+</html>

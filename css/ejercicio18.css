@@ -1,37 +1,24 @@
-/* 
-    1. VARIABLES CSS 
-*/
 :root {
-    --color-primario: #927dc1;   /* Color principal (morado claro) */
-    --color-secundario: #4CC9F0; /* Color acento (verde-azul) */
-    --color-fondo: #F8F9FA;      /* Color de fondo (gris claro) */
-    --color-texto: #2B2D42;      /* Color de texto principal */
-    --color-borde: #E9ECEF;      /* Color de bordes sutiles */
+    --color-primario: #927dc1;
+    --color-secundario: #4CC9F0;
+    --color-fondo: #F8F9FA;
+    --color-texto: #2B2D42;
+    --color-borde: #E9ECEF;
 }
 
-/* 
-    2. RESET BÁSICO
-*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 
-    3. ESTILOS GENERALES
-*/
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: sans-serif;
     background-color: var(--color-fondo);
     color: var(--color-texto);
-    line-height: 1.6;
     padding: 40px 20px;
 }
 
-/* 
-    4. CONTENEDOR PRINCIPAL
-*/
 .contenedor-formulario {
     max-width: 500px;
     margin: 0 auto;
@@ -41,9 +28,6 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* 
-    5. ESTILOS DE TIPOGRAFÍA
-*/
 h1 {
     font-size: 26px;
     color: var(--color-primario);
@@ -56,9 +40,6 @@ h1 {
     font-size: 14px;
 }
 
-/* 
-    6. GRUPOS DE FORMULARIO
-*/
 .grupo-formulario {
     margin-bottom: 20px;
 }
@@ -70,34 +51,19 @@ label {
     font-size: 14px;
 }
 
-/* 
-    7. INPUTS Y TEXTAREA
-*/
 input {
     width: 100%;
     padding: 12px 15px;
     border: 1px solid var(--color-borde);
     border-radius: 8px;
-    transition: all 0.3s;
     font-size: 15px;
 }
 
 input:focus {
     border-color: var(--color-secundario);
     outline: none;
-    box-shadow: 0 0 3px rgba(76, 201, 240, 0.2);
 }
 
-/* Estilo especial para el input de solo lectura (readonly) */
-input[readonly] {
-    background-color: #f1f3f5;
-    color: #495057;
-    cursor: not-allowed;
-}
-
-/* 
-    8. BOTÓN DE ENVÍO
-*/
 .boton-enviar {
     width: 100%;
     background-color: var(--color-primario);
@@ -107,14 +73,46 @@ input[readonly] {
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.3s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .boton-enviar:hover {
     background-color: #2a0880;
+}
+
+.seccion-lista h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--color-texto);
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+}
+
+.elemento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid var(--color-borde);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.boton-eliminar {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.boton-eliminar:hover {
+    background-color: #fa5252;
 }

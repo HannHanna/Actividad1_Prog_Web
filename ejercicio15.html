@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Registro de Estudiantes</h1>
+        <p class="subtitulo">Agrega estudiantes y calcula sus resultados.</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre del Estudiante</label>
+                <input type="text" id="nombre" placeholder="Ej: Juan">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="calificacion">Calificación</label>
+                <input type="text" id="calificacion" placeholder="Ej: 85">
+            </div>
+
+            <button type="button" id="btn-agregar" class="boton-enviar">Agregar estudiante</button>
+
+            <hr style="margin: 20px 0; border: none; border-top: 1px solid var(--color-borde);">
+
+            <div class="grupo-formulario">
+                <label for="promedio">Calificación Promedio</label>
+                <input type="text" id="promedio" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="mayor">Calificación Más Alta</label>
+                <input type="text" id="mayor" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="menor">Calificación Más Baja</label>
+                <input type="text" id="menor" readonly>
+            </div>
+
+            <button type="button" id="btn-calcular" class="boton-enviar">Calcular</button>
+        </form>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+    <a href="index.html" class="btn-volver">VOLVER AL MENÚ</a>
+
+</body>
+</html>

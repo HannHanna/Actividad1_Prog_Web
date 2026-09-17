@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Arreglos</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora de Números</h1>
+        <p class="subtitulo">Ingresa números separados por comas.</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="numeros">Números</label>
+                <input type="text" id="numeros" placeholder="Ej: 10, 20, 30" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="mayor">Número Mayor</label>
+                <input type="text" id="mayor" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="menor">Número Menor</label>
+                <input type="text" id="menor" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="promedio">Promedio</label>
+                <input type="text" id="promedio" readonly>
+            </div>
+
+            <button type="button" id="btn-calcular" class="boton-enviar">Calcular</button>
+        </form>
+    </div>
+
+    <script src="js/ejercicio14.js"></script>
+    <a href="index.html" class="btn-volver">VOLVER AL MENÚ</a>
+
+</body>
+</html>
