@@ -45,9 +45,9 @@ body {
     5. ESTILOS DE TIPOGRAFÍA
 */
 h1 {
+    margin: 0 auto;
     font-size: 26px;
     color: var(--color-primario);
-    margin-bottom: 8px;
 }
 
 .subtitulo {
